@@ -1,0 +1,16 @@
+@import url("styles/header.css");
+
+:root {
+    --cor-de-fundo: #02163a;
+    --branco: #75afca;
+    --laranja: #45126e;
+    --azul-degrade: linear-gradient(97.54deg, #880d0dd7 35.49%, #326589 165.37%);
+    --fonte-principal: "candara";
+}
+
+body {
+    background-color: var(--cor-de-fundo);
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400;
+}
